@@ -1,5 +1,18 @@
 // npx ts-node .\main.ts  
 
+import readline from 'readline';
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+
+rl.on('line', () => {
+    console.clear();
+});
+
+console.log('Press Enter to clear the console.');
+
 const tmi = require('tmi.js');
 
 //the client will use an anonymous connection to chat
