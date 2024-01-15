@@ -8,6 +8,7 @@ As a channel moderator I want to see a notification when a new chatter (not a fi
 
 ## Setup
 npm install -g typescript
+
 npm install
 
 ## Run
